@@ -17,7 +17,7 @@ describe('Todo Service', () => {
                 {
                     name: 'test1',
                     isDone: false,
-                    createdAt: new Date()
+                    createdAt: new Date('2023-01-01T00:00:00Z')
                 },
                 {
                     name: 'test3',
@@ -30,7 +30,7 @@ describe('Todo Service', () => {
                 {
                     name: 'test1',
                     isDone: false,
-                    createdAt: new Date()
+                    createdAt: new Date('2023-01-01T00:00:00Z')
                 },
                 {
                     name: 'test2',
